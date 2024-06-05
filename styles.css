@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+   
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    margin-bottom: -5px;
+}
+.post {
+    background-color: white;
+    width: 500px; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+
+}
+.postHeader {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.izqSection {
+    display: flex;
+    align-items: center;
+
+}
+
+.logoHTML {
+    font-size: 34px; 
+    margin-right: 10px;
+    margin-bottom: 0;
+    justify-content: center;
+    padding: 0;
+}
+
+.name h3 {
+    margin: 0; 
+    padding: 0; 
+    margin-top: 0;
+}
+
+.menuPoint i {
+    font-size: 34px; 
+    margin-left: auto;
+    align-items: end;
+}
+
+.postImg {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.postIcons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.izqIcons {
+    font-size: 30px; 
+    margin-right: auto;
+    align-items: start;
+}
+.derechaIcon {
+    font-size: 30px; 
+    margin-left: auto;
+    align-items: end;
+}
